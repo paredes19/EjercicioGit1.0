@@ -25,8 +25,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8vc-r0-leN">
-                                <rect key="frame" x="166" y="342" width="42" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="160" y="342" width="55" height="30"/>
+                                <state key="normal" title="Agregar"/>
+                                <connections>
+                                    <action selector="aumentaContador:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sTI-Xz-ECd"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -35,12 +38,15 @@
                             <constraint firstItem="TuY-rO-kpl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="293" id="GR2-We-RDz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8vc-r0-leN" secondAttribute="bottom" constant="295" id="OL5-bz-8Nf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TuY-rO-kpl" secondAttribute="trailing" constant="167" id="TCS-Uv-Pkq"/>
-                            <constraint firstItem="8vc-r0-leN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="166" id="egx-wf-vbS"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8vc-r0-leN" secondAttribute="trailing" constant="167" id="vC2-xr-Ipn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8vc-r0-leN" secondAttribute="trailing" constant="160" id="XGR-C6-UiK"/>
+                            <constraint firstItem="8vc-r0-leN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="160" id="Ywe-0f-4bz"/>
                             <constraint firstItem="TuY-rO-kpl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="166" id="z8o-xu-TVr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="contador" destination="TuY-rO-kpl" id="Blb-SG-aX7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
