@@ -74,5 +74,8 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func multiplicaCount(_ sender: UIButton) {
+        cont = cont * 10
+        contador.text = String(cont)
+    }
 }
-
