@@ -47,6 +47,14 @@
                                     <action selector="multiplicaCount:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DPi-da-s6G"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kb2-Gt-1pA">
+                                <rect key="frame" x="165" y="226" width="44" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Restar"/>
+                                <connections>
+                                    <action selector="restaCount:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pc9-Al-vWg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>

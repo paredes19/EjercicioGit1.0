@@ -78,4 +78,10 @@ class ViewController: UIViewController {
         cont = cont * 10
         contador.text = String(cont)
     }
+    
+    @IBAction func restaCount(_ sender: UIButton) {
+        cont = cont - 2
+        contador.text = String(cont)
+    }
+    
 }
